@@ -1,6 +1,6 @@
 {
   "name": "jerryyiransunwebsite",
-  "homepage": "https://jerryyiransun.me/",
+  "homepage": "https://jerrysun817.github.io/JerryYiranSunWebsit/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,21 +11,35 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@react-three/drei": "^9.78.1",
+    "@react-three/fiber": "^8.13.4",
     "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.1",
     "gh-pages": "^5.0.0",
     "postcss": "^8.4.23",
     "react": "^18.2.0",
+    "react-awesome-reveal": "^4.2.5",
+    "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
-    "tailwindcss": "^3.3.2"
+    "react-icons": "^4.10.1",
+    "react-router-dom": "^6.11.1",
+    "react-router-hash-link": "^2.4.3",
+    "react-social-icons": "^5.15.0",
+    "sass": "^1.65.1",
+    "tailwindcss": "^3.3.2",
+    "three": "^0.154.0",
+    "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^4.0.0",
+    "daisyui": "^3.3.1",
     "eslint": "^8.38.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
-    "vite": "^4.3.2"
+    "vite": "^4.3.9"
   }
 }

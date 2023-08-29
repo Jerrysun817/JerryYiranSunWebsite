@@ -1,0 +1,27 @@
+.hoverEffect {
+  transition: all 0.2s linear 0s;
+
+  &:before {
+    content: "\2192";
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 0.2s linear 0s;
+  }
+
+  &:hover {
+    text-indent: 25px;
+
+    &:before {
+      opacity: 1;
+      text-indent: 0px;
+    }
+  }
+}

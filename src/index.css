@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Outfit";
+  src: url("./assets/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+
+* {
+  font-family: "Outfit";
+}
+
+/* scrollbar styling later */
+::-webkit-scrollbar {
+  width: 0;
+}
