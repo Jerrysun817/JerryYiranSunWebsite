@@ -14,7 +14,7 @@ import {
 import { BsBootstrapFill } from "react-icons/bs";
 
 import spaceexplorer from "../assets/project/spacexplore.png";
-import kgc from "../assets/project/KGC.png";
+import kgc from "../assets/project/kgc.png";
 import safewalk from "../assets/project/safewalk.png";
 import shellsim from "../assets/project/shellsim.png";
 import careerleap from "../assets/project/careerleap.png";
