@@ -31,7 +31,7 @@ export const NavBar = () => {
   return (
     <BrowserRouter>
       <nav
-        className={`hidden md:flex justify-between opacity-80 items-center bg-slate-200 fixed w-full transition-all duration-500 ease-in-out ${
+        className={`hidden md:flex justify-between items-center bg-opacity-50 backdrop-blur-md bg-slate-200 fixed w-full transition-all duration-500 ease-in-out ${
           isNavbarVisible ? "top-0" : "-top-[100px]"
         } z-50`}
       >
@@ -42,22 +42,27 @@ export const NavBar = () => {
         </div>
 
         <div className="flex gap-10 pr-20 text-lg font-bold">
-          <div className="hover:text-blue-500 transition duration-300 hover:shadow-lg p-4 rounded-xl">
+          <div className="hover:text-blue-500 transition duration-300 p-4 rounded-xl">
             <HashLink to="#about" smooth>
               About
             </HashLink>
           </div>
-          <div className="hover:text-blue-500 transition duration-300 hover:shadow-lg p-4 rounded-xl">
+          <div className="hover:text-blue-500 transition duration-300 p-4 rounded-xl">
+            <HashLink to="#skills" smooth>
+              Skills
+            </HashLink>
+          </div>
+          <div className="hover:text-blue-500 transition duration-300 p-4 rounded-xl">
+            <HashLink to="#experiences" smooth>
+              Experiences
+            </HashLink>
+          </div>
+          <div className="hover:text-blue-500 transition duration-300 p-4 rounded-xl">
             <HashLink to="#projects" smooth>
               Projects
             </HashLink>
           </div>
-          <div className="hover:text-blue-500 transition duration-300 hover:shadow-lg p-4 rounded-xl">
-            <HashLink to="#resume" smooth>
-              Resume
-            </HashLink>
-          </div>
-          <div className="hover:text-blue-500 transition duration-300 hover:shadow-lg p-4 rounded-xl">
+          <div className="hover:text-blue-500 transition duration-300 p-4 rounded-xl">
             <HashLink to="#contact" smooth>
               Contact
             </HashLink>
@@ -66,7 +71,7 @@ export const NavBar = () => {
       </nav>
 
       <div
-        className={`md:hidden flex justify-between opacity-80 items-center bg-slate-200 fixed w-full transition-all duration-500 ease-in-out ${
+        className={`md:hidden flex justify-between items-center bg-slate-200 bg-opacity-50 backdrop-blur-md fixed w-full transition-all duration-500 ease-in-out ${
           isNavbarVisible ? "top-0" : "-top-[85px]"
         } z-50`}
       >
@@ -90,8 +95,8 @@ export const NavBar = () => {
             className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <HashLink to="#portfolio" smooth>
-                Portfolio
+              <HashLink to="#about" smooth>
+                About
               </HashLink>
             </li>
             <li>
@@ -100,8 +105,13 @@ export const NavBar = () => {
               </HashLink>
             </li>
             <li>
-              <HashLink to="#about" smooth>
-                About
+              <HashLink to="#experiences" smooth>
+                Experiences
+              </HashLink>
+            </li>
+            <li>
+              <HashLink to="#projects" smooth>
+                Projects
               </HashLink>
             </li>
             <li>
@@ -115,5 +125,3 @@ export const NavBar = () => {
     </BrowserRouter>
   );
 };
-
-export default NavBar;

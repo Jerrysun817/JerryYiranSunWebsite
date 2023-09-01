@@ -1,45 +1,25 @@
-import { Slide } from "react-awesome-reveal";
-import photo from "../assets/photo.jpg";
-import Typewriter from "typewriter-effect";
-
 export const About = () => {
   return (
-    <div className="flex flex-col items-center justify-center pt-10 relative">
-      <div className="w-full md:w-[700px] absolute z-10 p-4 md:p-10 bg-white bg-opacity-10 backdrop-blur-md rounded">
-        <Slide direction="left" triggerOnce>
-          <div className="text-2xl md:text-4xl font-bold">Greetings!</div>
-        </Slide>
-        <Slide direction="right" triggerOnce>
-          <div className="text-6xl md:text-[150px] leading-[0.8] pb-5">
-            {"I'm Jerry."}
-          </div>
-        </Slide>
-        <div className="text-xl md:text-2xl font-semibold">
-          <Typewriter
-            options={{
-              autoStart: true,
-              loop: true,
-              delay: 50,
-              strings: [
-                "I'm a computer engineering student",
-                "I'm a software engineer",
-                "I'm a 'Sun'",
-                "I'm a front end developer",
-                "I'm a video game player",
-                "I'm a mobile application developer",
-                "I'm a UX/UI designer",
-              ],
-            }}
-          />
-        </div>
-        <Slide direction="down" triggerOnce>
-          <div className="text-lg md:text-xl">
-            I am passionate about transforming ideas into tangible solutions
-            through technology
-          </div>
-        </Slide>
+    <div className="md:mx-60 mx-8 my-12 md:flex">
+      <h1 className="md:text-[60px] text-[40px] font-semibold md:flex-shrink-0 pr-10">
+        About Me
+      </h1>
+      <div className="mt-4">
+        <p className="md:text-xl text-lg mb-4">
+          I have honed my skills as a Web Developer and Software Engineer in the
+          fast-paced world of tech innovation. My career so far has been a rich
+          tapestry of projects across various domains. The skills I've gathered,
+          from web development to AI, position me uniquely to contribute to
+          different fields. I'm excited about future opportunities to apply my
+          expertise in new and challenging environments.
+        </p>
+        <p className="md:text-lg text-base">
+          I am currently pursuing a degree in Computer Engineering at UBC.
+          During my studies, I've gained experience in computer systems,
+          software construction, and hardware-software integration. In my spare
+          time, I enjoy playing basketball and attending networking events.
+        </p>
       </div>
-      <img src={photo} className="pt-10 blur-sm w-full" />
     </div>
   );
 };
