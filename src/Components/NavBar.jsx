@@ -84,7 +84,8 @@ export const NavBar = () => {
         <div className="dropdown dropdown-end">
           <div
             tabIndex={0}
-            className=" cursor-pointer pr-10 hover:text-blue-500"
+            className=" pr-10 hover:text-blue-500"
+            style={{ cursor: "pointer" }}
           >
             <span>
               <FiMenu size={28} />
