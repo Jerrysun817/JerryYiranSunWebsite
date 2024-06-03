@@ -42,27 +42,27 @@ export const NavBar = () => {
         </div>
 
         <div className="flex gap-10 pr-20 text-lg font-bold">
-          <div className="hover:text-blue-500 transition duration-300 p-4 rounded-xl">
+          <div className="hover:opacity-50 transition duration-300 p-4 rounded-xl">
             <HashLink to="#about" smooth>
               About
             </HashLink>
           </div>
-          <div className="hover:text-blue-500 transition duration-300 p-4 rounded-xl">
+          <div className="hover:opacity-50 transition duration-300 p-4 rounded-xl">
             <HashLink to="#skills" smooth>
               Skills
             </HashLink>
           </div>
-          <div className="hover:text-blue-500 transition duration-300 p-4 rounded-xl">
+          <div className="hover:opacity-50 transition duration-300 p-4 rounded-xl">
             <HashLink to="#experiences" smooth>
               Experiences
             </HashLink>
           </div>
-          <div className="hover:text-blue-500 transition duration-300 p-4 rounded-xl">
+          <div className="hover:opacity-50 transition duration-300 p-4 rounded-xl">
             <HashLink to="#projects" smooth>
               Projects
             </HashLink>
           </div>
-          <div className="hover:text-blue-500 transition duration-300 p-4 rounded-xl">
+          <div className="hover:opacity-50 transition duration-300 p-4 rounded-xl">
             <HashLink to="#contact" smooth>
               Contact
             </HashLink>
@@ -84,7 +84,7 @@ export const NavBar = () => {
         <div className="dropdown dropdown-end">
           <div
             tabIndex={0}
-            className=" pr-10 hover:text-blue-500"
+            className=" pr-10 hover:opacity-50"
             style={{ cursor: "pointer" }}
           >
             <span>

@@ -23,10 +23,10 @@ export const Home = () => {
               strings: [
                 "I'm a computer engineering student",
                 "I'm a software engineer",
-                "I'm a 'Sun'",
-                "I'm a front end developer",
-                "I'm a video game player",
+                "I'm a compiler developer",
+                "I'm a full-stack developer",
                 "I'm a mobile application developer",
+                "I'm a cloud computing enthusiast",
                 "I'm a UX/UI designer",
               ],
             }}

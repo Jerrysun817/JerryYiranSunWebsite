@@ -9,7 +9,7 @@ export const Skills = () => {
           {"I'm familar with:"}
         </h1>
       </div>
-      <div className=" w-full flex flex-row flex-wrap gap-9 items-center justify-center">
+      <div className=" w-auto flex flex-row flex-wrap gap-9 items-center justify-center">
         {technologies.map((technology, index) => (
           <AttentionSeeker key={`technology-${index}`} triggerOnce>
             <div className="flex flex-col items-center justify-center">

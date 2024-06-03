@@ -6,12 +6,16 @@ export const About = () => {
       </h1>
       <div className="mt-4">
         <p className="md:text-xl text-lg mb-4">
-          I have honed my skills as a Web Developer and Software Engineer in the
-          fast-paced world of tech innovation. My career so far has been a rich
-          tapestry of projects across various domains. The skills I've gathered,
-          from web development to AI, position me uniquely to contribute to
-          different fields. I'm excited about future opportunities to apply my
-          expertise in new and challenging environments.
+          I have honed my skills as Software Engineer in the fast-paced world of
+          tech innovation. I am proficient in languages including C/C++,
+          JavaScript, Java, and Python, and frameworks like React and Node.js.
+          Comfortable with Git, Linux/Unix like operating systems, and more. My
+          career so far has been a rich tapestry of projects across various
+          domains. The skills I've gathered, from web development, cloud
+          infrastructure research to compiler development position me uniquely
+          to contribute to different fields. I'm excited about future
+          opportunities to apply my expertise in new and challenging
+          environments.
         </p>
         <p className="md:text-lg text-base">
           I am currently pursuing a degree in Computer Engineering at UBC.

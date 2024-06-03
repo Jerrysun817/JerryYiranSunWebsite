@@ -64,7 +64,9 @@ export const Projects = () => {
           <Typography variant="h4" component="h2">
             {currentProject?.name}
           </Typography>
-          <Typography sx={{ mt: 2 }}>Text in a modal</Typography>
+          <Typography sx={{ mt: 2 }}>
+            Feature under construction 👷‍♂️🏗️
+          </Typography>
         </Box>
       </Modal>
     </div>

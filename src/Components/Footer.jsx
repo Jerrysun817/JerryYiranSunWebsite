@@ -39,7 +39,7 @@ export const Footer = () => {
         </div>
       </div>
       <div className="font-medium text-sm text-center mt-auto">
-        © 2023 Yiran Sun. All rights reserved
+        © 2024 Yiran Sun. All rights reserved
       </div>
     </footer>
   );
